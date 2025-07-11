@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Test output
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.pyc
+
+# Node
+node_modules/
+
+# IDEs
+.idea/
+*.swp
+
+# Misc
+*.bak
+*.tmp
+*.orig
+
+# Custom files
+baml_client/*
+
+labs/baml-101/src/baml_client/
+
+
+
