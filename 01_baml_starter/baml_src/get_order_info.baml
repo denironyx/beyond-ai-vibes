@@ -18,7 +18,7 @@ template_string ChainOfThought(action: string?) #"
 
 
 function GetOrderInfo(email: Email) -> OrderInfo {
-  client "openai/gpt-"
+  client "openai/gpt-4o"
   prompt #"
     extract everything from this email.
 
