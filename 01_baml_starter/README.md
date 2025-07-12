@@ -10,21 +10,45 @@ BAML is a tool that allows you to use AI to extract and classify information fro
 - Access to this project folder
 - Your API keys set in the `.env` file (ask your admin if unsure)
 
-## Step 1: Install Required Packages
+
+## Step 1: Install BAML and Required Packages
 Open a terminal in this folder and run:
 
 ```
-pip install -r requirements.txt
+uv pip install baml-py
+uv pip install -r requirements.txt
 ```
 
-## Step 2: Set Up Your Environment
+If you don't have [uv](https://github.com/astral-sh/uv) installed, you can install it with:
+
+```
+pip install uv
+```
+
+## Step 2: Initialize BAML Project
+Run the following command to initialize BAML in your project:
+
+```
+uv run baml-cli init
+```
+
+## Step 3: Generate Python Code from BAML
+After editing your `.baml` files, generate the Python code, this commmand will auto-generate the `baml_client` directory, which will have auto-generated python code to call your BAML functions.
+
+```
+uv run baml-cli generate
+```
+
+
+## Step 4: Set Up Your Environment
 Make sure your `.env` file contains the necessary API keys. Example:
 
 ```
 OPENAI_API_KEY=your-openai-key-here
 ```
 
-## Step 3: Run the Example
+
+## Step 5: Run the Example
 You can run the main example by typing:
 
 ```
