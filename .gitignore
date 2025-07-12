@@ -48,7 +48,8 @@ baml_client/*
 
 ../baml_client/*
 
-labs/2025-07-11-baml-101/src/baml_client/
+01_baml_starter/baml_client/
+01_baml_starter/baml_client/__pycache__/
 
 
 
