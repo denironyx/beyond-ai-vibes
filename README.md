@@ -30,8 +30,8 @@ Every 2–3 weeks:
 
 
 
-## Why "Beyond AI Vibes"?
+## "Beyond AI Vibes"?
 
-Because I’m not just chasing tech,  I’m chasing **perspective**, **practice**, and **possibility**. This is a space for remixing ideas that don’t fit cleanly into templates. If something breaks or goes off-script, even better.
+This is a space for remixing ideas that don’t fit cleanly into templates. If something breaks or goes off-script, even better.
 
 
