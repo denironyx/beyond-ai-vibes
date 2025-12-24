@@ -30,7 +30,7 @@ Every 2–3 weeks:
 
 
 
-## "Beyond AI Vibes"?
+## why "Beyond AI Vibes"?
 
 This is a space for remixing ideas that don’t fit cleanly into templates. If something breaks or goes off-script, even better.
 
